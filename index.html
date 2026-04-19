@@ -7,7 +7,6 @@
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-192.png">
 <link rel="icon" type="image/png" href="icon-192.png">
-
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Eschaton EBD">
@@ -42,10 +41,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Mantém o bloco no centro da tela */
+    justify-content: center;
     text-align: center;
-    padding: 40px 24px; /* Reduzi um pouco o padding para ganhar espaço no mobile */
+    padding: 60px 24px;
     overflow: hidden;
+}
 
 .hero-bg {
     position: absolute;
@@ -78,17 +78,7 @@ body {
     50% { opacity: var(--op, 0.7); transform: scale(1.1); }
 }
 
-.hero-content {
-    position: relative;
-    z-index: 2;
-    max-width: 700px;
-    /* ADICIONE AS LINHAS ABAIXO */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px; /* Isso mantém os textos e o botão sempre próximos */
-    width: 100%;
-}
+.hero-content { position: relative; z-index: 2; max-width: 700px; }
 
 .hero-selo {
     display: inline-block;
@@ -110,8 +100,7 @@ body {
     color: white;
     letter-spacing: 8px;
     text-transform: uppercase;
-    line-height: 0.9; /* Reduzido levemente para o título ficar mais compacto */
-    margin: 0 !important; /* CRUCIAL: Impede que o título empurre o que está abaixo */
+    line-height: 1;
     animation: fadeUp 1s ease 0.2s both;
 }
 
@@ -121,9 +110,10 @@ body {
     font-weight: 400;
     letter-spacing: 5px;
     color: var(--ouro-claro);
-    margin-top: 5px; /* Reduzido de 10px para 5px para aproximar a legenda do título */
+    margin-top: 10px;
     font-family: 'Oswald', sans-serif;
 }
+
 .hero-divisor {
     display: flex;
     align-items: center;
@@ -733,3 +723,4 @@ document.addEventListener('DOMContentLoaded', configurarIntegracaoVolumes);
 <script src="https://igrejamanancialdevida.github.io/li-esebd/navegacao.js"></script>
 </body>
 </html>
+index-voluII.html
