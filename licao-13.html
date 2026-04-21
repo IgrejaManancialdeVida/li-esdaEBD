@@ -167,6 +167,38 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     .pag{box-shadow:none;page-break-after:always;page-break-inside:avoid;}
     .wm{display:none;}
 }
+
+/* ── BLOCOS DO ALUNO — Lição 13 ── */
+/* Paleta âmbar/ouro da lição 13 */
+.baluno{border-radius:3px;padding:9px 12px;margin-top:12px;margin-bottom:2px;position:relative;}
+.baluno-ico{font-size:10pt;margin-right:6px;vertical-align:middle;}
+.baluno-tag{font-family:'Oswald',sans-serif;font-size:7.5pt;letter-spacing:2px;text-transform:uppercase;font-weight:600;margin-bottom:6px;display:flex;align-items:center;gap:4px;}
+.baluno-corpo{font-family:'EB Garamond',serif;font-size:10pt;line-height:1.55;color:var(--ct);}
+.baluno-linha{border-bottom:1px solid rgba(0,0,0,0.12);height:22px;margin-top:6px;}
+
+/* Para você refletir — âmbar */
+.ba-refletir{background:rgba(192,144,48,0.07);border-left:3px solid var(--cor);}
+.ba-refletir .baluno-tag{color:var(--cor);}
+/* Conexão Bíblica — ouro */
+.ba-biblica{background:rgba(201,168,76,0.08);border-left:3px solid var(--ouro);}
+.ba-biblica .baluno-tag{color:#8a6a20;}
+/* Sabia que? — âmbar escuro */
+.ba-sabia{background:rgba(80,50,10,0.06);border-left:3px solid #7a5a10;}
+.ba-sabia .baluno-tag{color:#7a5a10;}
+/* Pense nisso — âmbar com borda tracejada */
+.ba-pense{background:rgba(192,144,48,0.04);border:1px dashed rgba(192,144,48,0.38);border-left:3px solid var(--cor);}
+.ba-pense .baluno-tag{color:var(--cor);}
+/* Leve para a vida — gradiente âmbar/ouro */
+.ba-vida{background:linear-gradient(135deg,rgba(192,144,48,0.06),rgba(201,168,76,0.07));border:1px solid rgba(201,168,76,0.32);border-left:3px solid var(--ouro);}
+.ba-vida .baluno-tag{color:#8a6a20;}
+
+@media (max-width:768px){
+    .baluno{padding:8px 10px;}
+    .baluno-corpo{font-size:9.5pt;}
+}
+@media print{
+    .baluno{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+}
 </style>
 </head>
 <body>
@@ -232,6 +264,14 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
     <p>A síntese desta série mostra que a escatologia não é um tema periférico, mas a moldura que dá unidade à esperança cristã. Cada lição estudada convergiu para a mesma verdade: Deus conduz a história a um fim santo, justo e glorioso.</p>
     <p>Por isso, conhecer o fim não é satisfazer curiosidade, mas aprender a viver com propósito. A doutrina escatológica amadurece a fé quando leva o crente a abandonar tanto a ansiedade quanto a superficialidade espiritual.</p>
+
+    <div class="baluno ba-refletir">
+        <div class="baluno-tag"><span class="baluno-ico">&#9670;</span> Para você refletir</div>
+        <div class="baluno-corpo">Ao olhar a síntese das 13 lições, qual tema te impactou mais profundamente — e qual ficou apenas no intelecto sem descer ao coração? A escatologia que não transforma a vida ficou no caminho. O que ainda precisa mudar em você a partir de tudo que foi estudado?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
+
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">2</span></div>
 </div>
 
@@ -248,6 +288,14 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
     <p>A ética escatológica não se apoia em medo estéril, mas em responsabilidade diante de Deus. Quem sabe que Cristo voltará aprende a avaliar o presente à luz da eternidade e a ordenar a vida segundo o Reino que vem.</p>
     <p>Essa perspectiva toca escolhas concretas: o modo de falar, de perdoar, de servir e de perseverar. A vigilância, a santidade e a missão deixam de ser conceitos abstratos e se tornam práticas diárias de fidelidade.</p>
+
+    <div class="baluno ba-biblica">
+        <div class="baluno-tag"><span class="baluno-ico">&#9998;</span> Conexão Bíblica</div>
+        <div class="baluno-corpo">Leia 2 Pedro 3:10-14 e 1 João 3:2-3 lado a lado. Como Pedro e João conectam a esperança do retorno de Cristo com a ética cotidiana? Quais verbos de ação cada autor usa — e o que eles revelam sobre a postura concreta que o cristão deve ter enquanto aguarda?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
+
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">3</span></div>
 </div>
 
@@ -269,6 +317,12 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
     <p>A esperança cristã redefine o sofrimento, a morte e o trabalho porque nenhum deles possui a palavra final. A promessa de Deus impede o desespero e sustenta a fidelidade mesmo quando o presente parece marcado por perdas e limitações.</p>
     <p>Além disso, ela protege o cristão do cinismo. O que é feito no Senhor não desaparece no vazio, mas participa, por graça, da realidade futura que Deus prometeu consumar.</p>
+
+    <div class="baluno ba-sabia">
+        <div class="baluno-tag"><span class="baluno-ico">&#9654;</span> Sabia que?</div>
+        <div class="baluno-corpo">A palavra grega <em>elpis</em> (esperança) aparece 53 vezes no Novo Testamento e nunca designa um desejo incerto — sempre uma certeza antecipada. Os primeiros cristãos viviam sob perseguição romana, mas os registros históricos mostram que enfrentavam a morte com serenidade desconcertante para os contemporâneos. O filósofo Epicteto, pagão, admirava-se: "É possível, por hábito e disciplina, desprezar a morte assim." Para Paulo, não era hábito — era ressurreição.</div>
+    </div>
+
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">4</span></div>
 </div>
 
@@ -292,6 +346,14 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
     <p>As diferentes tradições cristãs oferecem ênfases que podem se corrigir e se enriquecer mutuamente. A urgência missionária e o compromisso cultural não precisam ser rivais, mas expressões complementares de uma mesma esperança escatológica.</p>
     <p>Uma escatologia equilibrada evita extremos e forma crentes capazes de anunciar o evangelho com fervor e, ao mesmo tempo, habitar o mundo com responsabilidade, profundidade e amor ao próximo.</p>
+
+    <div class="baluno ba-pense">
+        <div class="baluno-tag"><span class="baluno-ico">&#8857;</span> Pense nisso</div>
+        <div class="baluno-corpo">A perspectiva pentecostal enfatiza urgência — Cristo pode voltar a qualquer momento; a reformada enfatiza profundidade — o reino avança e exige construção de longo prazo. Essas ênfases parecem opostas, mas precisam coexistir. Qual delas você tende naturalmente? Que fruto concreto a ênfase oposta poderia produzir na sua vida se você a levasse a sério?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
+
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">5</span></div>
 </div>
 
@@ -314,6 +376,14 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
     <p>Concluir esta série exige mais do que recordar conteúdos; exige resposta prática. O conhecimento adquirido precisa se converter em transformação real, afetando prioridades, hábitos e a direção da vida diante de Deus.</p>
     <p>A escatologia bíblica chama o cristão a viver de modo intencional, com os olhos erguidos para a promessa divina e os pés firmes na obediência cotidiana. O futuro prometido por Deus é a força que sustenta a fidelidade no presente.</p>
+
+    <div class="baluno ba-vida">
+        <div class="baluno-tag"><span class="baluno-ico">&#10022;</span> Leve para a vida</div>
+        <div class="baluno-corpo">Esta é a última lição — mas não o fim da jornada. Escolha agora um dos três compromissos do desafio final (vigilância, santidade ou missão) e escreva aqui uma ação concreta e datada que você vai realizar esta semana. A escatologia que não gera compromisso ficou pelo caminho:</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
+
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">6</span></div>
 </div>
 
