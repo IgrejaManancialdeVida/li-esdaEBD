@@ -138,6 +138,33 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     .pag{box-shadow:none;page-break-after:always;page-break-inside:avoid;}
     .wm{display:none;}
 }
+
+/* ── BLOCOS DO ALUNO ── */
+.baluno{border-radius:3px;padding:9px 12px;margin-top:12px;margin-bottom:2px;position:relative;}
+.baluno-ico{font-size:10pt;margin-right:6px;vertical-align:middle;}
+.baluno-tag{font-family:'Oswald',sans-serif;font-size:7.5pt;letter-spacing:2px;text-transform:uppercase;font-weight:600;margin-bottom:6px;display:flex;align-items:center;gap:4px;}
+.baluno-corpo{font-family:'EB Garamond',serif;font-size:10pt;line-height:1.55;color:var(--ct);}
+.baluno-linha{border-bottom:1px solid rgba(0,0,0,0.12);height:22px;margin-top:6px;}
+
+/* Variantes de cor — paleta da lição 10 (terracota/juízo) */
+.ba-refletir{background:rgba(128,48,32,0.06);border-left:3px solid var(--cor);}
+.ba-refletir .baluno-tag{color:var(--cor);}
+.ba-biblica{background:rgba(201,168,76,0.07);border-left:3px solid var(--ouro);}
+.ba-biblica .baluno-tag{color:#8a6a20;}
+.ba-sabia{background:rgba(80,50,30,0.06);border-left:3px solid #7a5030;}
+.ba-sabia .baluno-tag{color:#6a4020;}
+.ba-pense{background:rgba(128,48,32,0.04);border:1px dashed rgba(128,48,32,0.30);border-left:3px solid var(--cor);}
+.ba-pense .baluno-tag{color:var(--cor);}
+.ba-vida{background:linear-gradient(135deg,rgba(128,48,32,0.05),rgba(201,168,76,0.06));border:1px solid rgba(201,168,76,0.30);border-left:3px solid var(--ouro);}
+.ba-vida .baluno-tag{color:#8a6a20;}
+
+@media (max-width:768px){
+    .baluno{padding:8px 10px;}
+    .baluno-corpo,.baluno-linha{font-size:9.5pt;}
+}
+@media print{
+    .baluno{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+}
 </style>
 </head>
 <body>
@@ -194,6 +221,12 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
 <p>Por isso, falar do Juízo Final não é abandonar a linguagem do amor, mas afirmar que o amor de Deus jamais é indiferente ao mal. Um Deus que não julga a perversidade não consola verdadeiramente as vítimas nem vindica sua própria santidade. O juízo é a face pública da justiça divina.</p>
 <p>Ao mesmo tempo, essa verdade impede tanto o desespero quanto a presunção. Desespero, porque nenhum mal ficará sem resposta; presunção, porque ninguém escapará do exame perfeito de Deus. Diante do trono, toda máscara cai e toda vida é trazida à luz.</p>
+    <div class="baluno ba-refletir">
+        <div class="baluno-tag"><span class="baluno-ico">&#9670;</span> Para você refletir</div>
+        <div class="baluno-corpo">Em uma cultura que relativiza o julgamento moral, como a certeza do Juízo Final muda o modo como você entende a justiça — tanto a injustiça que você sofre quanto a que você pratica? O que você sente ao saber que nenhuma ação humana ficará definitivamente sem resposta?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">2</span></div>
 </div>
 
@@ -212,6 +245,12 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
 <p>A cena do Grande Trono Branco revela que o juízo final não será caótico nem arbitrário. Nada ficará oculto, nada será esquecido e nada será relativizado. O que os tribunais humanos não alcançaram, o Juiz perfeito trará à plena luz.</p>
 <p>Há profundo consolo nisso para o povo de Deus. A fé cristã não ensina que os sofrimentos da história são irrelevantes, mas que todos serão finalmente avaliados diante daquele que conhece perfeitamente intenções, contextos e consequências. O juízo final é a resposta divina à impunidade aparente do mundo presente.</p>
+    <div class="baluno ba-biblica">
+        <div class="baluno-tag"><span class="baluno-ico">&#9998;</span> Conexão Bíblica</div>
+        <div class="baluno-corpo">Leia Apocalipse 20:11-15 e João 5:22-29. Quais palavras descrevem a <em>universalidade</em> do julgamento — quem comparece, sem exceção? O que a presença do "Livro da Vida" ao lado dos "livros de obras" revela sobre a base final da sentença?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">3</span></div>
 </div>
 
@@ -231,6 +270,10 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
 <p>Essa distinção ajuda a preservar duas verdades bíblicas ao mesmo tempo: a salvação é inteiramente pela graça, e a vida do crente possui responsabilidade real diante de Deus. As obras não compram a redenção, mas evidenciam a realidade da fé e serão trazidas à memória para louvor da justiça e da misericórdia divinas.</p>
 <p>Do lado dos incrédulos, o juízo final demonstra que a condenação não será genérica nem impessoal. Cada caso será perfeitamente julgado, e a sentença corresponderá à verdade integral da vida de cada um. Isso exclui qualquer ideia de injustiça em Deus e reforça a urgência do arrependimento enquanto dura o tempo da graça.</p>
+    <div class="baluno ba-sabia">
+        <div class="baluno-tag"><span class="baluno-ico">&#9654;</span> Sabia que?</div>
+        <div class="baluno-corpo">A palavra grega <em>bema</em> ("tribunal", usada em 2 Co 5:10) designava a plataforma elevada onde um magistrado romano proferia julgamentos ou onde um árbitro olímpico anunciava resultados e distribuía prêmios. Paulo usa esse termo para o julgamento dos crentes — não o banco dos réus, mas o estrado de premiação onde obras são avaliadas por Cristo.</div>
+    </div>
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">4</span></div>
 </div>
 
@@ -254,6 +297,12 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     </div>
     <div class="sep"><span>&#10022;</span></div>
     <p>O fundamento comum e inabalavel: Deus e justo, Cristo e o Juiz, nenhuma injustica ficara sem resposta, nenhuma bondade ficara sem reconhecimento. O Juízo Final e a garantia de que a história tem sentido moral e que o mal não tera a ultima palavra.</p>
+    <div class="baluno ba-pense">
+        <div class="baluno-tag"><span class="baluno-ico">&#8857;</span> Pense nisso</div>
+        <div class="baluno-corpo">Pentecostais e reformados divergem sobre a cronologia dos julgamentos, mas convergem no essencial: Cristo é o Juiz, as obras serão avaliadas, nenhuma injustiça ficará sem resposta. Essa convergência é suficiente para a unidade cristã? O debate sobre sequência muda algo na forma como você vive agora?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">5</span></div>
 </div>
 
@@ -276,6 +325,12 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
 <p>Em conclusão, o Juízo Final deve conduzir o crente a uma vida de sobriedade, reconciliação e perseverança. Quem sabe que Deus julgará o mundo não precisa viver dominado pela ansiedade de resolver tudo com as próprias mãos, mas também não pode tratar o pecado como algo leve ou indiferente.</p>
 <p>A doutrina do juízo final, portanto, não foi dada para alimentar pavor estéril, e sim para ordenar a vida diante de Deus. Ela chama a igreja a andar em santidade, a anunciar o evangelho com urgência e a descansar na certeza de que a justiça perfeita do Senhor prevalecerá no fim.</p>
+    <div class="baluno ba-vida">
+        <div class="baluno-tag"><span class="baluno-ico">&#10022;</span> Leve para a vida</div>
+        <div class="baluno-corpo">Esta semana, escolha uma atitude concreta motivada pela certeza do Juízo Final: libere alguém que te fez mal entregando ao Juiz justo (Rm 12:19); examine uma área da sua vida à luz de 1 Co 3:12-15; ou compartilhe o evangelho com alguém, sabendo que o tempo da graça é limitado. Anote aqui o que você vai fazer:</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">6</span></div>
 </div>
 
