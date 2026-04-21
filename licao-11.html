@@ -138,6 +138,38 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     .pag{box-shadow:none;page-break-after:always;page-break-inside:avoid;}
     .wm{display:none;}
 }
+
+/* ── BLOCOS DO ALUNO — Lição 11 ── */
+/* Paleta verde-escuro/ouro da lição 11 */
+.baluno{border-radius:3px;padding:9px 12px;margin-top:12px;margin-bottom:2px;position:relative;}
+.baluno-ico{font-size:10pt;margin-right:6px;vertical-align:middle;}
+.baluno-tag{font-family:'Oswald',sans-serif;font-size:7.5pt;letter-spacing:2px;text-transform:uppercase;font-weight:600;margin-bottom:6px;display:flex;align-items:center;gap:4px;}
+.baluno-corpo{font-family:'EB Garamond',serif;font-size:10pt;line-height:1.55;color:var(--ct);}
+.baluno-linha{border-bottom:1px solid rgba(0,0,0,0.12);height:22px;margin-top:6px;}
+
+/* Para você refletir — verde escuro */
+.ba-refletir{background:rgba(64,160,64,0.06);border-left:3px solid var(--cor);}
+.ba-refletir .baluno-tag{color:var(--cor);}
+/* Conexão Bíblica — ouro */
+.ba-biblica{background:rgba(201,168,76,0.07);border-left:3px solid var(--ouro);}
+.ba-biblica .baluno-tag{color:#8a6a20;}
+/* Sabia que? — verde musgo escuro */
+.ba-sabia{background:rgba(30,60,30,0.06);border-left:3px solid #2e5e2e;}
+.ba-sabia .baluno-tag{color:#2e5e2e;}
+/* Pense nisso — verde com borda tracejada */
+.ba-pense{background:rgba(64,160,64,0.04);border:1px dashed rgba(64,160,64,0.32);border-left:3px solid var(--cor);}
+.ba-pense .baluno-tag{color:var(--cor);}
+/* Leve para a vida — gradiente verde/ouro */
+.ba-vida{background:linear-gradient(135deg,rgba(64,160,64,0.05),rgba(201,168,76,0.06));border:1px solid rgba(201,168,76,0.30);border-left:3px solid var(--ouro);}
+.ba-vida .baluno-tag{color:#8a6a20;}
+
+@media (max-width:768px){
+    .baluno{padding:8px 10px;}
+    .baluno-corpo{font-size:9.5pt;}
+}
+@media print{
+    .baluno{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+}
 </style>
 </head>
 <body>
@@ -195,6 +227,13 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     <p>A sériedade dessa doutrina impede tanto o sentimentalismo quanto a crueldade. O cristão não estuda o inferno para sentir superioridade moral, mas para reconhecer o peso do pecado, a santidade de Deus e a urgência da redenção oferecida em Cristo. Onde o pecado é banalizado, a cruz perde sua profundidade; onde a condenação é negada, a graça também se torna irrelevante.</p>
     <p>Por isso, a doutrina do inferno precisa ser tratada com lágrimas e com reverência. Ela não foi dada para produzir prazer na condenação alheia, mas para levar a Igreja ao arrependimento, à gratidão e à missão. A mesma Bíblia que fala do juízo eterno também proclama, com igual clareza, a amplitude da misericórdia divina oferecida no evangelho.</p>
 
+    <div class="baluno ba-refletir">
+        <div class="baluno-tag"><span class="baluno-ico">&#9670;</span> Para você refletir</div>
+        <div class="baluno-corpo">Jesus falou sobre o inferno com mais frequência do que qualquer outro personagem do Novo Testamento. Por que você acha que essa doutrina é tão rejeitada hoje — inclusive dentro da Igreja? Sua própria reação ao tema é mais de desconforto, indiferença ou gratidão pela graça que o livrou?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
+
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">2</span></div>
 </div>
 
@@ -215,6 +254,13 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
     <p>Essa distinção vocabular também protege a leitura bíblica contra simplificações apressadas. Nem todo texto sobre o estado dos mortos trata diretamente da condenação final, e nem toda referência ao juízo deve ser automaticamente lida como descrição detalhada do lago de fogo. A teologia cuidadosa respeita o desenvolvimento progressivo da revelação e evita confundir estado intermediário com destino eterno.</p>
     <p>Além disso, o uso desses termos mostra que a Bíblia não fala do juízo apenas em categorias abstratas. Há imagens concretas, históricas e morais que comunicam a gravidade da separação de Deus. Jesus escolhe imagens fortes porque o assunto é grave demais para ser reduzido a metáforas inofensivas ou a construções puramente filosóficas.</p>
+
+    <div class="baluno ba-biblica">
+        <div class="baluno-tag"><span class="baluno-ico">&#9998;</span> Conexão Bíblica</div>
+        <div class="baluno-corpo">Leia Marcos 9:43-48 e Lucas 16:19-26. Qual dos quatro termos (<em>Sheol</em>, <em>Hades</em>, <em>Geena</em>, lago de fogo) cada passagem utiliza? Jesus está descrevendo o estado intermediário ou a condenação final? O que a especificidade do vocabulário revela sobre a intenção do texto?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
 
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">3</span></div>
 </div>
@@ -237,6 +283,11 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
     <p>Entre essas posições, o ponto decisivo não é apenas filosófico, mas exegético. A pergunta central é como harmonizar a linguagem de "morte", "destruição" e "fogo eterno" com textos que falam de castigo consciente e permanente. Por isso, qualquer conclusão responsável deve nascer da leitura conjunta de Jesus, Paulo, João e do pano de fundo veterotestamentário, e não de preferências emocionais sobre o que pareceria mais aceitável à sensibilidade moderna.</p>
     <p>Também é importante notar que o debate não diminui a sériedade do juízo. Mesmo onde há divergência sobre a duração ou a forma da punição, permanece a convicção de que rejeitar a graça de Deus tem consequências irreversíveis. O inferno, em qualquer leitura ortodoxa do tema, não é um detalhe periférico, mas parte do testemunho bíblico sobre a santidade divina e a responsabilidade humana.</p>
+
+    <div class="baluno ba-sabia">
+        <div class="baluno-tag"><span class="baluno-ico">&#9654;</span> Sabia que?</div>
+        <div class="baluno-corpo">A palavra <em>Geena</em> vem de <em>Ge-Hinnom</em> — o Vale de Hinom, ao sul de Jerusalém. Ali, durante o período dos reis, crianças foram sacrificadas ao deus Moloque (2 Rs 23:10). Josias profanou o lugar para encerrar essa prática, e ele se tornou o lixão permanente da cidade, com fogo que nunca se apagava. Quando Jesus usava a palavra <em>Geena</em>, todo ouvinte judeu reconhecia imediatamente essa imagem de horror, rejeição e fogo incessante.</div>
+    </div>
 
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">4</span></div>
 </div>
@@ -262,6 +313,13 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     <p>Apesar das diferenças de ênfase, ambas as tradições reconhecem que a doutrina do inferno não pode ser isolada do caráter de Deus revelado em Cristo. O mesmo Senhor que advertiu sobre o fogo eterno foi aquele que chorou sobre Jerusalém, recebeu pecadores e entregou a própria vida pela salvação dos culpados. A severidade do juízo só é corretamente compreendida à luz da grandeza da misericórdia rejeitada.</p>
     <p>Por isso, a abordagem pastoral mais fiel une firmeza doutrinária e compaixão. Falar do inferno sem dureza de coração, mas também sem omissão, é parte da responsabilidade da Igreja. A verdade sobre a condenação eterna não enfraquece o evangelho; ao contrário, torna ainda mais luminosa a glória da cruz e da salvação graciosa oferecida por Deus.</p>
 
+    <div class="baluno ba-pense">
+        <div class="baluno-tag"><span class="baluno-ico">&#8857;</span> Pense nisso</div>
+        <div class="baluno-corpo">Pentecostais e reformados convergem na realidade da condenação eterna, mas divergem na ênfase: medo imediato como motivação para conversão versus sobriedade teológica e compaixão pastoral. Qual dessas abordagens você encontra mais frequentemente? Qual você acha mais fiel ao modelo de Jesus, que chorou sobre Jerusalém antes de anunciar sua destruição (Lc 19:41-44)?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
+
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">5</span></div>
 </div>
 
@@ -284,6 +342,13 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
     <p>Em termos pastorais, essa doutrina também chama o cristão à sobriedade espiritual. Não há espaço para presunção, frieza ou indiferença. Quem compreende o peso do juízo eterno aprende a valorizar mais profundamente a obra de Cristo, a tratar o pecado com sériedade e a olhar o próximo não como adversário ideológico, mas como alguém que precisa da reconciliação com Deus.</p>
     <p>Essa certeza também desemboca em esperança moral: Deus não abandonará sua criação ao caos, nem permitirá que a injustiça permaneça para sempre sem resposta. A existência do juízo final e da condenação eterna afirma que o mal terá fim, que a verdade prevalecerá e que a graça de Cristo é, hoje, a única porta aberta para a vida eterna.</p>
+
+    <div class="baluno ba-vida">
+        <div class="baluno-tag"><span class="baluno-ico">&#10022;</span> Leve para a vida</div>
+        <div class="baluno-corpo">Esta semana, deixe a doutrina do inferno gerar um fruto prático: escolha uma pessoa próxima que ainda não conhece o evangelho e ore por ela todos os dias. Se possível, crie uma oportunidade real de conversa. Anote aqui o nome dessa pessoa e um passo concreto que você vai dar:</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
 
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">6</span></div>
 </div>
