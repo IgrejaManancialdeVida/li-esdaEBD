@@ -140,6 +140,38 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     .pag{box-shadow:none;page-break-after:always;page-break-inside:avoid;}
     .wm{display:none;}
 }
+
+/* ── BLOCOS DO ALUNO — Lição 12 ── */
+/* Paleta azul-celeste/ouro da lição 12 */
+.baluno{border-radius:3px;padding:9px 12px;margin-top:12px;margin-bottom:2px;position:relative;}
+.baluno-ico{font-size:10pt;margin-right:6px;vertical-align:middle;}
+.baluno-tag{font-family:'Oswald',sans-serif;font-size:7.5pt;letter-spacing:2px;text-transform:uppercase;font-weight:600;margin-bottom:6px;display:flex;align-items:center;gap:4px;}
+.baluno-corpo{font-family:'EB Garamond',serif;font-size:10pt;line-height:1.55;color:var(--ct);}
+.baluno-linha{border-bottom:1px solid rgba(0,0,0,0.12);height:22px;margin-top:6px;}
+
+/* Para você refletir — azul-celeste */
+.ba-refletir{background:rgba(96,128,192,0.07);border-left:3px solid var(--cor);}
+.ba-refletir .baluno-tag{color:var(--cor);}
+/* Conexão Bíblica — ouro */
+.ba-biblica{background:rgba(201,168,76,0.07);border-left:3px solid var(--ouro);}
+.ba-biblica .baluno-tag{color:#8a6a20;}
+/* Sabia que? — azul escuro */
+.ba-sabia{background:rgba(20,35,70,0.06);border-left:3px solid #2e4a8e;}
+.ba-sabia .baluno-tag{color:#2e4a8e;}
+/* Pense nisso — azul com borda tracejada */
+.ba-pense{background:rgba(96,128,192,0.04);border:1px dashed rgba(96,128,192,0.35);border-left:3px solid var(--cor);}
+.ba-pense .baluno-tag{color:var(--cor);}
+/* Leve para a vida — gradiente azul/ouro */
+.ba-vida{background:linear-gradient(135deg,rgba(96,128,192,0.06),rgba(201,168,76,0.06));border:1px solid rgba(201,168,76,0.30);border-left:3px solid var(--ouro);}
+.ba-vida .baluno-tag{color:#8a6a20;}
+
+@media (max-width:768px){
+    .baluno{padding:8px 10px;}
+    .baluno-corpo{font-size:9.5pt;}
+}
+@media print{
+    .baluno{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+}
 </style>
 </head>
 <body>
@@ -196,6 +228,14 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
     <p>Essa esperança corrige a imaginação cristã e nos impede de reduzir a eternidade a uma fuga espiritual do mundo. A promessa bíblica aponta para a plenitude da redenção: Deus reconciliando consigo todas as coisas e conduzindo seu povo à vida perfeita em sua presença.</p>
     <p>Por isso, falar do céu de forma bíblica é falar também de ressurreição, nova terra e comunhão consumada com o Senhor. O destino final dos salvos não é menos real que o presente, mas infinitamente mais glorioso, porque nele tudo será restaurado segundo o propósito eterno de Deus.</p>
+
+    <div class="baluno ba-refletir">
+        <div class="baluno-tag"><span class="baluno-ico">&#9670;</span> Para você refletir</div>
+        <div class="baluno-corpo">A maioria das pessoas imagina o céu como nuvens e harpas — uma existência etérea e desmaterializada. Ao descobrir que a Bíblia descreve uma nova criação concreta e gloriosa, sua esperança mudou? O que seria mais difícil de abandonar: a visão popular do céu ou a visão bíblica de uma nova terra renovada pela presença de Deus?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
+
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">2</span></div>
 </div>
 
@@ -214,6 +254,14 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
     <p>A distinção entre o estado intermediário e a nova criação final tem grande valor pastoral. Ela consola o crente enlutado com a certeza de que os que morreram em Cristo já estão com o Senhor, mas também preserva a integridade da esperança bíblica, que aguarda a ressurreição do corpo e a restauração plena de todas as coisas.</p>
     <p>Essa verdade também reafirma a bondade da criação. Deus não trata o corpo e o mundo material como descartáveis; antes, em Cristo, ele garante que sua obra será renovada e glorificada. A esperança cristã é integral, abrangendo alma, corpo e cosmos sob o senhorio do Redentor.</p>
+
+    <div class="baluno ba-biblica">
+        <div class="baluno-tag"><span class="baluno-ico">&#9998;</span> Conexão Bíblica</div>
+        <div class="baluno-corpo">Leia Filipenses 1:21-23 e 1 Tessalonicenses 4:13-18 lado a lado. O que Paulo revela sobre o estado intermediário e sobre a esperança da ressurreição? Como a distinção entre "estar com Cristo agora" e "a nova criação final" aparece nesses textos? De que forma eles se complementam em vez de se contradizer?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
+
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">3</span></div>
 </div>
 
@@ -235,6 +283,12 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
     <p>Os símbolos da Nova Jerusalém mostram que o futuro dos redimidos não será pobre nem abstrato. Toda a linguagem de pedras preciosas, ouro puro, rio da vida e árvore da vida comunica abundância, estabilidade, pureza e alegria sob a presença imediata de Deus.</p>
     <p>Acima de tudo, Apocalipse 21 e 22 ensinam que o maior dom do céu não é a cidade em si, mas o próprio Deus. A visão da sua face e a comunhão sem barreiras cumprem aquilo para o qual o ser humano foi criado desde o princípio: viver diante do Criador em amor, santidade e plenitude.</p>
+
+    <div class="baluno ba-sabia">
+        <div class="baluno-tag"><span class="baluno-ico">&#9654;</span> Sabia que?</div>
+        <div class="baluno-corpo">A expressão <em>visio Dei</em> — "visão de Deus" — foi o maior debate da teologia medieval. Tomás de Aquino a chamou de <em>beatitudo</em>, o bem-aventurado fim supremo do ser humano. A promessa de Apocalipse 22:4 — "e verão a sua face" — resolve aquilo que Moisés não pôde ver (Êx 33:20): na nova criação, a presença de Deus não será mediada por véus, templos ou sacramentos, mas direta, plena e eterna.</div>
+    </div>
+
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">4</span></div>
 </div>
 
@@ -258,6 +312,14 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
     <p>As diferenças de leitura entre abordagens mais literais e mais simbólicas não anulam a certeza central da promessa. Em qualquer das interpretações ortodoxas, a vida eterna é real, a comunhão com Deus é plena, e a morte jamais voltará a ameaçar os redimidos.</p>
     <p>Esse ponto comum deve produzir reverência e esperança, e não disputa estéril. A doutrina do céu e da nova criação foi dada para fortalecer a perseverança da Igreja, alimentar a adoração e lembrar aos santos que o desfecho da história já está garantido pelo Cordeiro.</p>
+
+    <div class="baluno ba-pense">
+        <div class="baluno-tag"><span class="baluno-ico">&#8857;</span> Pense nisso</div>
+        <div class="baluno-corpo">Pentecostais tendem a ler a Nova Jerusalém literalmente — uma cidade física de ouro e pedras preciosas; reformados tendem a ler simbolicamente — uma imagem da comunhão plena com Deus. Mas ambos concordam no essencial: Deus habitará com seus redimidos para sempre. Essa convergência profunda importa mais que a divergência sobre os detalhes? Como você equilibra fidelidade exegética e humildade interpretativa diante de um texto tão rico?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
+
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">5</span></div>
 </div>
 
@@ -280,6 +342,14 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
     <p>Concluir essa doutrina corretamente é reconhecer que a esperança futura transforma a vida presente. Quem crê que Deus fará novas todas as coisas aprende a sofrer sem desespero, a trabalhar sem cinismo e a amar sem medo de perda definitiva, porque sabe que o Senhor conduz tudo para sua consumação gloriosa.</p>
     <p>Assim, a nova criação não é apenas consolo para depois da morte, mas fundamento para uma vida santa, firme e esperançosa agora. O cristão caminha no mundo com os olhos postos na eternidade, não para fugir da realidade, mas para viver nela à luz da promessa fiel de Deus.</p>
+
+    <div class="baluno ba-vida">
+        <div class="baluno-tag"><span class="baluno-ico">&#10022;</span> Leve para a vida</div>
+        <div class="baluno-corpo">Esta semana, deixe a visão da nova criação gerar um fruto concreto: escolha uma área da sua vida — seu trabalho, um relacionamento, um hábito — e pergunte: "Como posso cuidar disso como quem sabe que Deus vai fazer novas todas as coisas?" Anote aqui essa área e um passo prático que você vai dar, à luz da esperança eterna:</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
+
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">6</span></div>
 </div>
 
