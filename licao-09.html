@@ -130,6 +130,33 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     .pag{box-shadow:none;page-break-after:always;page-break-inside:avoid;}
     .wm{display:none;}
 }
+
+/* ── BLOCOS DO ALUNO ── */
+.baluno{border-radius:3px;padding:9px 12px;margin-top:12px;margin-bottom:2px;position:relative;}
+.baluno-ico{font-size:10pt;margin-right:6px;vertical-align:middle;}
+.baluno-tag{font-family:'Oswald',sans-serif;font-size:7.5pt;letter-spacing:2px;text-transform:uppercase;font-weight:600;margin-bottom:6px;display:flex;align-items:center;gap:4px;}
+.baluno-corpo{font-family:'EB Garamond',serif;font-size:10pt;line-height:1.55;color:var(--ct);}
+.baluno-linha{border-bottom:1px solid rgba(0,0,0,0.12);height:22px;margin-top:6px;}
+
+/* Variantes de cor */
+.ba-refletir{background:rgba(32,144,176,0.06);border-left:3px solid var(--cor);}
+.ba-refletir .baluno-tag{color:var(--cor);}
+.ba-biblica{background:rgba(201,168,76,0.07);border-left:3px solid var(--ouro);}
+.ba-biblica .baluno-tag{color:#8a6a20;}
+.ba-sabia{background:rgba(60,120,180,0.06);border-left:3px solid #5080b0;}
+.ba-sabia .baluno-tag{color:#4060a0;}
+.ba-pense{background:rgba(32,144,176,0.04);border:1px dashed rgba(32,144,176,0.30);border-left:3px solid var(--cor);}
+.ba-pense .baluno-tag{color:var(--cor);}
+.ba-vida{background:linear-gradient(135deg,rgba(32,144,176,0.05),rgba(201,168,76,0.06));border:1px solid rgba(201,168,76,0.30);border-left:3px solid var(--ouro);}
+.ba-vida .baluno-tag{color:#8a6a20;}
+
+@media (max-width:768px){
+    .baluno{padding:8px 10px;}
+    .baluno-corpo,.baluno-linha{font-size:9.5pt;}
+}
+@media print{
+    .baluno{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+}
 </style>
 </head>
 <body>
@@ -186,6 +213,12 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
 <p>A ressurreição bíblica, portanto, não é fuga do mundo material, mas sua redenção final. Deus não abandona a obra de suas mãos; antes, leva à consumação aquilo que criou e declarou bom desde o princípio. Por isso, a esperança cristã não se limita ao consolo para a alma, mas alcança a pessoa inteira.</p>
 <p>Essa doutrina também corrige dois extremos frequentes: o materialismo, que reduz o homem ao corpo presente, e o espiritualismo, que trata o corpo como algo descartável. Nas Escrituras, o ser humano é uma unidade criada por Deus, e a salvação plena inclui a restauração dessa unidade na presença do Senhor.</p>
+    <div class="baluno ba-refletir">
+        <div class="baluno-tag"><span class="baluno-ico">&#9670;</span> Para você refletir</div>
+        <div class="baluno-corpo">A ressurreição corporal é a esperança mais radical do cristianismo. Como essa doutrina diferencia a fé cristã das demais visões sobre a morte — especialmente das ideias de imortalidade da alma e reencarnação? O que muda para você saber que Deus redimirá o seu próprio corpo?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">2</span></div>
 </div>
 
@@ -204,6 +237,12 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
 <p>A ressurreição de Cristo, portanto, não é apenas prova de seu poder, mas o padrão da esperança cristã. O túmulo vazio não anuncia apenas que Jesus venceu a morte; anuncia também que a morte perdeu seu domínio definitivo sobre todos os que lhe pertencem.</p>
 <p>Isso significa que a esperança do crente não repousa em uma sobrevivência vaga após a morte, mas em uma promessa histórica e concreta. Assim como Cristo ressuscitou de fato, em continuidade com o corpo que foi crucificado, também os redimidos ressuscitarão em continuidade real com a sua identidade pessoal, embora plenamente transformados pela glória de Deus.</p>
+    <div class="baluno ba-biblica">
+        <div class="baluno-tag"><span class="baluno-ico">&#9998;</span> Conexão Bíblica</div>
+        <div class="baluno-corpo">Leia 1 Coríntios 15:35-44. Paulo usa a imagem do grão para explicar continuidade e transformação. Quais pares de contraste ele apresenta (v. 42-44)? O que cada par revela sobre a diferença entre o corpo atual e o corpo ressurreto?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">3</span></div>
 </div>
 
@@ -225,6 +264,10 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
 <p>Seja qual for a cronologia adotada, o ponto central permanece: a morte não terá a palavra final sobre nenhum ser humano. Todos comparecerão diante de Deus como pessoas integrais, e não como consciências desencarnadas. A ressurreição estabelece a seriedade moral da existência humana e a dignidade do corpo diante do Criador.</p>
 <p>O estado intermediário, por sua vez, embora seja de consolo para os que morrem no Senhor, não deve ser confundido com o destino final. A esperança cristã mira além do descanso da alma na presença de Cristo; ela aguarda o dia em que o corpo também será redimido, e a comunhão com Deus será experimentada em plenitude na nova criação.</p>
+    <div class="baluno ba-sabia">
+        <div class="baluno-tag"><span class="baluno-ico">&#9654;</span> Sabia que?</div>
+        <div class="baluno-corpo">A palavra grega <em>anastasis</em> ("ressurreição") significa literalmente "levantar-se" ou "ficar de pé novamente". No mundo antigo, quando Paulo pregou sobre a <em>anastasis</em> em Atenas (At 17:32), os filósofos gregos riram — pois a ressurreição do corpo era considerada indesejável. Para os gregos, o corpo era uma prisão da alma. O evangelho inverteu radicalmente essa visão.</div>
+    </div>
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">4</span></div>
 </div>
 
@@ -248,6 +291,12 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     </div>
     <div class="sep"><span>&#10022;</span></div>
     <p>Ambas as tradições afirmam com igual convicção: o corpo importa para Deus, a identidade pessoal e preservada na ressurreição, e a vida eterna não e uma existencia etérea e desencarnada, mas uma vida plena, encarnada, na nova criacao que Deus está preparando.</p>
+    <div class="baluno ba-pense">
+        <div class="baluno-tag"><span class="baluno-ico">&#8857;</span> Pense nisso</div>
+        <div class="baluno-corpo">Pentecostais e reformados divergem sobre o número e a ordem das ressurreições — mas afirmam com igual convicção que a ressurreição será corporal e inseparável do senhorio de Cristo. Essa convergência é suficiente para a comunhão cristã? Onde está a linha entre debate teológico legítimo e divisão desnecessária?</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">5</span></div>
 </div>
 
@@ -270,6 +319,12 @@ body.licao-iniciada #capaEntradaRevista{display:none;}
     
 <p>Concluir essa doutrina corretamente é reconhecer que a ressurreição confere densidade eterna à vida presente. O que fazemos com o corpo, com o tempo, com o sofrimento e com o serviço cristão não é irrelevante. Tudo é vivido à sombra da promessa de que Deus redimirá plenamente aquilo que hoje ainda geme.</p>
 <p>Assim, a esperança da ressurreição não produz alienação, mas fidelidade. O cristão pode enfrentar perdas, limitações e a própria morte sem desespero, porque sabe que em Cristo sua história não termina no túmulo. O último capítulo da existência humana pertence ao Deus que ressuscita os mortos.</p>
+    <div class="baluno ba-vida">
+        <div class="baluno-tag"><span class="baluno-ico">&#10022;</span> Leve para a vida</div>
+        <div class="baluno-corpo">Esta semana, escolha uma atitude concreta motivada pela esperança da ressurreição: trate seu corpo com dignidade como templo que ressuscitará; consolide alguém enlutado com a esperança concreta da ressurreição; ou realize um serviço presente sabendo que ele não é vão no Senhor (1 Co 15:58). Anote aqui o que você vai fazer:</div>
+        <div class="baluno-linha"></div>
+        <div class="baluno-linha"></div>
+    </div>
     <div class="rod"><span class="rt">Eschaton &middot; EBD Jovens Adultos</span><span class="rn">6</span></div>
 </div>
 
